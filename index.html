@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+    </head>
+    <body>
+        <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBsariG6DzW7384D2O084OPffUjcN4oAI4",
+            authDomain: "testproject-f4ac1.firebaseapp.com",
+            databaseURL: "https://testproject-f4ac1.firebaseio.com",
+            projectId: "testproject-f4ac1",
+            storageBucket: "testproject-f4ac1.appspot.com",
+            messagingSenderId: "947391466383"
+        };
+        firebase.initializeApp(config);
+        const db = firebase.firestore();
+        </script>
+        <script src="app.js"></script>
+    </body>
+</html>
